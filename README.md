@@ -45,7 +45,7 @@ In diesem Abschnitt wird die Bauanleitungen für die Basis des Roboters, die als
 3.1 Aufbau der Basis
 Zu Beginn des Projekts wird eine Basis mit ausreichend Platz für den Large Hub, den Motoren sowie dem distance Sensor benötigten. Daher wurde eine Basis aus zwei Panel 11x19, welche mit Connector peg w/friction verbunden wurden gebaut. Vorne  Ball cup mit ball. 
 Diese Konstruktion sorgt für ausreichend Stabilität und ermöglicht es dem Roboter, sich auf dem Boden zu drehen, eine wesentliche Eigenschaft, um den Kontakt mit Hindernissen zu vermeiden.
-Um den Roboter durch den Raum bewegen zu können, wird ein Antrieb benötigt. Dafür eignen sich zwei Räder, die jeweils mit einem eigenen Motor ausgestattet sind. Zwei Motoren sind erforderlich, damit der Roboter sich drehen kann, ohne seine Position zu verändern. Aus Stabilitätsgründen werden die Räder an der Rückseite des Roboters montiert – auf der Seite, auf der der Computer positioniert ist. Diese Konstruktion orientiert sich an der Bauweise herkömmlicher Rasenmäherroboter.
+Um den Roboter durch den Raum bewegen zu können, wird ein Antrieb benötigt. Dafür eignen sich zwei Räder, die jeweils mit einem eigenen Motor ausgestattet sind. Zwei Motoren sind erforderlich, damit der Roboter sich drehen kann, ohne seine Position zu verändern. Aus Stabilitätsgründen werden die Räder an der Rückseite des Roboters montiert – auf der Seite, auf der der Computer positioniert ist. 
 
 Das linke Bild zeigt die benötigten Bausteine für ein Rad. Für das zweite Rad werden identische Bausteine verwendet, wobei es spiegelverkehrt aufgebaut werden muss. Das fertige Ergebnis ist im rechten Bild zu sehen.
 
