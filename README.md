@@ -36,6 +36,18 @@ Nachfolgend finden Sie eine Liste der LEGO-Steine, die für den Bau des Roboters
 8x Technic 15m beam
 8x 1/2 bush
 10x Technic 9m beam
-40x Connector peg w/friction
- 
+50x Connector peg w/friction
+
+
+## 3 Basis 
+In diesem Abschnitt wird die Bauanleitungen für die Basis des Roboters, die als Grundlage für die weiteren Schritte dient erläutert. Zudem wird der Code, der den Roboter vorwärts bewegt dargelegt.
+
+3.1 Aufbau der Basis
+Zu Beginn des Projekts wird eine Basis mit ausreichend Platz für den Large Hub, den Motoren sowie dem distance Sensor benötigten. Daher haben wir eine Basis aus dem Panel 11x19, welche mit den Connector peg w/friction verbunden wurden gebaut.
+Diese Konstruktion sorgt für ausreichend Stabilität und ermöglicht es dem Roboter, sich auf dem Boden zu drehen, eine wesentliche Eigenschaft, um den Kontakt mit Hindernissen zu vermeiden.
+Um den Roboter durch den Raum bewegen zu können, wird ein Antrieb benötigt. Dafür eignen sich zwei Räder, die jeweils mit einem eigenen Motor ausgestattet sind. Zwei Motoren sind erforderlich, damit der Roboter sich drehen kann, ohne seine Position zu verändern. Aus Stabilitätsgründen werden die Räder an der Rückseite des Roboters montiert – auf der Seite, auf der der Computer positioniert ist. Diese Konstruktion orientiert sich an der Bauweise herkömmlicher Rasenmäherroboter.
+
+Das linke Bild zeigt die benötigten Bausteine für ein Rad. Für das zweite Rad werden identische Bausteine verwendet, wobei es spiegelverkehrt aufgebaut werden muss. Das fertige Ergebnis ist im rechten Bild zu sehen.
+
+Nach der Fertigstellung werden die Räder an der Basis befestigt. Dabei ist darauf zu achten, die Räder mit dem Computer zu verbinden. Das linke Rad wird mit Ausgang A und das rechte Rad mit Ausgang B verbunden. Bei korrekter Umsetzung ergibt sich folgendes Ergebnis:
  
