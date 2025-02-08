@@ -65,6 +65,7 @@ Der Sensor wurde ebenfalls mit dem Computer an Ausgang C verbunden.
 Schritt 1: Anbringen des Farbsensors
 Zunächst wurden beidseitig jeweils ein Technic 3m Beam mittig neben dem Large Hub befestigt. Anschließend wurden an den Außenseiten jeweils ein Technic 9m Beams montiert. Daneben wurde ein Technic 11m Beam positioniert, sodass das erste Loch über das Pannel geht. An dieser Stelle wurden jeweils ein Biscuit 1x3x3 (magenta) angebracht, an denen jeweils ein Medium Motor befestigt wurde.
 Die drei Beams wurden anschließend durch ein Technic 5m Beams verbunden. Alle Teile wurden mit Connector Pegs w/Friction gesichert.
+
 ![image](https://github.com/user-attachments/assets/d82c8f35-0f7a-489e-bcd8-f1b370f22317)
 
 An den Biscuit 1x3x3 werden jeweils ein Medium Motor befestigt.
