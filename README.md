@@ -56,7 +56,9 @@ Um den Distanzsensor in einer optimalen Höhe zu platzieren, wurde eine Erhöhun
 •	2x Technic 11m Beams
 •	1x Technic 13m Beam
 Diese Elemente wurden übereinander positioniert und der Distanzsensor darauf befestigt. Zur sicheren Montage wurden zwei Angular Beams (90 Degrees w/4 Snaps) verwendet, jeweils einer pro Seite.
+
 ![image](https://github.com/user-attachments/assets/223e45d3-411d-4c90-83dd-0fa906e3a6f3)
+
 Der Sensor wurde ebenfalls mit dem Computer an Ausgang C verbunden.
 
 ##3.3 Einsaugfunktion mit Farbsensor
@@ -66,21 +68,26 @@ Die drei Beams wurden anschließend durch ein Technic 5m Beams verbunden. Alle T
 ![image](https://github.com/user-attachments/assets/d82c8f35-0f7a-489e-bcd8-f1b370f22317)
 
 An den Biscuit 1x3x3 werden jeweils ein Medium Motor befestigt.
+
 ![image](https://github.com/user-attachments/assets/1c4f1761-6420-4b14-8d31-a775ed5ab9b0)
 
 Wir haben Mittig auf der Unterseite zwei Technic 15m Beams befestigt, sodass sie etwa zur Hälfte vorne herausragen. Zur Verlängerung wurden daran jeweils zwei Technic 7m Beams vorne angebaut. 
  An der vorderen Unterseite wurde der Farbsensor befestigt. In diesem Schritt wurden ebenfalls alle Teile mit Hilfe von Connector peg w/friction befestigt.
+ 
 ![image](https://github.com/user-attachments/assets/37abd06e-be86-45a9-8a75-ecd4400ed1a7)
 
 Schritt 2: Anbringen der Räder für die Saugfunktion
 Zuerst wurden an den Medium Motoren folgende Teile an der Unterseite befestigt:
+
  ![image](https://github.com/user-attachments/assets/daacbb2b-c354-4ceb-8362-9a0b81d1230d)
 
 Anschließend wurde jeweils ein Double Conical Wheel Z36 und danach ein Wheel Ø86 daran montiert.
+
  ![image](https://github.com/user-attachments/assets/621394f8-7df0-4c7b-9240-7e829eec14eb)
 
 Nun wird noch auf die Oberseite des Medium Motors jweils ein Technic 5m beam befestigt. Auf der Innenseite kommt jeweils ein Ball w/friction snap. Anschließen kommt nochmal jeweils ein ein Technic 5m beam oben drauf, welche mit Connector peg 3m verbunden 
 Um die Ball w/friction snap wurde ein Gummiband gespannt. Dies sorgt dafür, dass sich die Räder nach dem Einsammeln eines Steins wieder in ihre Ausgangsposition zurückbewegen.
+
 ![image](https://github.com/user-attachments/assets/fad8a1a1-9f4d-4d39-a004-67e18f2724f3)
 ![image](https://github.com/user-attachments/assets/cbbcffcb-37ca-4001-a8fb-1b3305d3270d)
 
