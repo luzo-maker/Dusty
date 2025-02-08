@@ -39,7 +39,7 @@ Nachfolgend finden Sie eine Liste der LEGO-Steine, die für den Bau des Roboters
 50x Connector peg w/friction
 
 
-##3.1 Die Basis
+## 3.1 Die Basis
 Zu Beginn unseres Projekts haben wir zunächst eine stabile Basis konstruiert, die ausreichend Platz für den Large Hub, die Motoren sowie den Distanzsensor bietet. Dafür haben wir zwei Panel 11x19 verwendet.
 Um den Roboter durch den Raum bewegen zu können, haben wir ein Antriebssystem entwickelt, das aus zwei unabhängig gesteuerten Rädern (Wheel Dia.56 ) besteht. Jedes Rad ist mit einem eigenen großen Motor ausgestattet welche am hinteren Panel auf der Unterseite befestigt wurden. An der Vorderseite haben wir einen Ball Cup mit Ball angebracht. Dieser wurde mit Hilfe eines Beam Frame 5x7 sicher an den Panels befestigt, um den Höhenunterschied auszugleichen.
  Anschließend haben wir den Large Hub auf der Oberseite der Panels positioniert, sodass dieser zentral aufliegt.
@@ -49,7 +49,7 @@ Bei korrekter Umsetzung ergibt sich folgendes Ergebnis:
  
 Es ist darauf zu achten, die Motoren mit dem large Hub zu verbinden. Der Motor vom linken Rad (von vorne betrachtet) wird mit Ausgang A und das rechte Rad mit Ausgang B verbunden. 
 
-##3.2 Distanzsensor
+## 3.2 Distanzsensor
 Um den Distanzsensor in einer optimalen Höhe zu platzieren, wurde eine Erhöhung aus mehreren Technic Beams konstruiert:
 •	3x  Technic 7m Beams
 •	1x Technic 13m Beam
@@ -61,7 +61,7 @@ Diese Elemente wurden übereinander positioniert und der Distanzsensor darauf be
 
 Der Sensor wurde ebenfalls mit dem Computer an Ausgang C verbunden.
 
-##3.3 Einsaugfunktion mit Farbsensor
+## 3.3 Einsaugfunktion mit Farbsensor
 Schritt 1: Anbringen des Farbsensors
 Zunächst wurden beidseitig jeweils ein Technic 3m Beam mittig neben dem Large Hub befestigt. Anschließend wurden an den Außenseiten jeweils ein Technic 9m Beams montiert. Daneben wurde ein Technic 11m Beam positioniert, sodass das erste Loch über das Pannel geht. An dieser Stelle wurden jeweils ein Biscuit 1x3x3 (magenta) angebracht, an denen jeweils ein Medium Motor befestigt wurde.
 Die drei Beams wurden anschließend durch ein Technic 5m Beams verbunden. Alle Teile wurden mit Connector Pegs w/Friction gesichert.
@@ -93,7 +93,7 @@ Um die Ball w/friction snap wurde ein Gummiband gespannt. Dies sorgt dafür, das
 ![image](https://github.com/user-attachments/assets/cbbcffcb-37ca-4001-a8fb-1b3305d3270d)
 
 
-##3.4 Auffangnetz
+## 3.4 Auffangnetz
 Als letzten Schritt haben wir auf der Unterseite noch eine Art auffangnetz angebaut, um die eingesammelten Steine aufzufangen. Dafür haben wir mit Legosteinen eine U-Form gebaut.
 
  
