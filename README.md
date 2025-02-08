@@ -94,7 +94,7 @@ Um die Ball w/friction snap wurde ein Gummiband gespannt. Dies sorgt dafür, das
 
 
 ## 3.4 Auffangnetz
-Als letzten Schritt haben wir auf der Unterseite noch eine Art auffangnetz angebaut, um die eingesammelten Steine aufzufangen. Dafür haben wir mit Legosteinen eine U-Form gebaut.
+Als letzten Schritt haben wir auf der Unterseite noch eine Art Auffangkorb angebaut, um die eingesammelten Steine aufzufangen. Dafür haben wir mit Legosteinen eine U-Form gebaut. 
 
  
 ## 4 Programmierung
