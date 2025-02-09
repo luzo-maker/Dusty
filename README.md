@@ -139,7 +139,6 @@ Während zahlreichen Probedurchläufen trafen wir häufig auf zwei Probleme, die
  2) Des Weiteren ergaben sich Probleme mit den Rädern, welche für die grundsätzliche Bewegung von Dusty zuständig waren. Durch die Bauweise von Dusty liegt auf diesen eher wenig Gewicht. Das führt dazu, dass sie vor allem bei Drehungen (Funktion "Return", 4.3 Return) sehr schnell durchdrehen. Dadurch wird wiederum der gewünschte Winkel der Drehung nicht vollständig erreicht. Eine mögliche Lösung dieses Problems ist das Verwenden zusätzlicher Gewichte. Externe Gewichte können so auf Dusty platziert werden, dass deren Hauptbelastung auf die Räder übertragen wird und sie daher eine bessere Verbindung zum Boden bekommen.
 
 ## 6 Fazit
-Anhand des beschriebenen Aufbaus sowie der aufgeschlüsselten Programmierung konnte die ursprüngliche Idee eines Saugroboters realisiert werden. Im Folgenden Video ist Dusty in Aktion zu sehen.
-[Video ansehen](https://github.com/maiga-maker/README.mde/blob/main/Dusty.mp4)
+Anhand des beschriebenen Aufbaus sowie der aufgeschlüsselten Programmierung konnte die ursprüngliche Idee eines Saugroboters realisiert werden. 
 
 
