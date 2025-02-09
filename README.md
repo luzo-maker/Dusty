@@ -1,6 +1,9 @@
 # Dusty
 Dusty ist ein LEGO Spike Roboter, der autonom durch den Raum navigiert, ohne Hindernisse zu berühren. Er sammelt gezielt Objekte ein und meidet nicht definierte Gegenstände. Mit präziser Sensorik und intelligenter Software sorgt er für effiziente Navigation und Kategorisierung verschiedener Objekte.
 
+![Roboter Render](https://github.com/user-attachments/assets/7ef9a537-9295-41d6-ab56-4a9325723aec)
+
+
 ## 1 Allgemeine Informationen
 Wie der Name bereits verrät, basiert Dusty auf der Idee eines Saugroboters. Saugroboter nehmen Schmutz auf, erkennen nicht-schmutzartige Partikel und navigieren sicher durch einen Raum. Sobald sie ein Hindernis wahrnehmen, ändern sie dynamisch ihre Richtung und weichen Kollisionen, beispielsweise mit Wänden, aus.
 
