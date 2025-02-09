@@ -140,6 +140,6 @@ Während zahlreichen Probedurchläufen trafen wir häufig auf zwei Probleme, die
 
 ## 6 Fazit
 Anhand des beschriebenen Aufbaus sowie der aufgeschlüsselten Programmierung konnte die ursprüngliche Idee eines Saugroboters realisiert werden. Im Folgenden Video ist Dusty in Aktion zu sehen.
-[Video ansehen](https://github.com/maiga-maker/Dusty/blob/main/video.mp4)
+[Video ansehen](https://github.com/maiga-maker/README.mde/blob/main/Dusty.mp4)
 
 
