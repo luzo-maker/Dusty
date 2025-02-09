@@ -41,7 +41,7 @@ Nachfolgend finden Sie eine Liste der LEGO-Steine, die für den Bau des Roboters
 10x Technic 9m beam
 50x Connector peg w/friction
 
-
+## 3 Aufbau
 ## 3.1 Die Basis
 Zu Beginn unseres Projekts haben wir zunächst eine stabile Basis konstruiert, die ausreichend Platz für den Large Hub, die Motoren sowie den Distanzsensor bietet. Dafür haben wir zwei Panel 11x19 verwendet.
 Um den Roboter durch den Raum bewegen zu können, haben wir ein Antriebssystem entwickelt, das aus zwei unabhängig gesteuerten Rädern (Wheel Dia.56 ) besteht. Jedes Rad ist mit einem eigenen großen Motor ausgestattet welche am hinteren Panel auf der Unterseite befestigt wurden. An der Vorderseite haben wir einen Ball Cup mit Ball angebracht. Dieser wurde mit Hilfe eines Beam Frame 5x7 sicher an den Panels befestigt, um den Höhenunterschied auszugleichen.
@@ -132,7 +132,7 @@ Die selbst definierte Funktion „kein Schmutz“ enthält 5 „if“-Funktionen
 ![image](https://github.com/user-attachments/assets/df2d0631-09ca-4461-98dd-ea17780433c0)
 
 ## 4.6 Mögliche Anpassungen
-Je nachdem auf welchem Boden Dusty fährt können einige Anpassungen getroffen werden. Aufgrund der Ausrichtung direkten des Farbsensors auf den Boden, kann es dazu kommen, dass dieser dauerhaft die Farbe Gelb bei hellen Böden oder die Farbe schwarz bei dunklen Böden erkennt. Daher könnten je nach Umgebung aus der if-Funktion, welche nicht-schmutzige Teile identifiziert, die Farben des Bodens ausgeschlossen werden, um die Funktionstüchtigkeit von Dusty zu gewährleisten.
+Je nach dem auf welchem Boden Dusty fährt können einige Anpassungen getroffen werden. Aufgrund der Ausrichtung direkten des Farbsensors auf den Boden, kann es dazu kommen, dass dieser dauerhaft die Farbe Gelb bei hellen Böden oder die Farbe schwarz bei dunklen Böden erkennt. Daher könnten je nach Umgebung aus der if-Funktion, welche nicht-schmutzige Teile identifiziert, die Farben des Bodens ausgeschlossen werden, um die Funktionstüchtigkeit von Dusty zu gewährleisten.
 
 ## 5 Fazit
-
+Anhand des beschriebenen Aufbaus sowie der aufgeschlüsselten Programmierung konnte die ursprüngliche Idee eines Saugroboters realisiert werden. 
