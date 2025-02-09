@@ -1,7 +1,10 @@
 # Dusty
-Dusty ist ein LEGO Spike Roboter, der autonom durch den Raum navigiert, ohne Hindernisse zu berühren. Er sammelt gezielt blaue Objekte und meidet andersfarbige Gegenstände, die als Müll gelten. Mit präziser Sensorik und intelligenter Software sorgt er für effiziente Navigation und Farberkennung.
+Dusty ist ein LEGO Spike Roboter, der autonom durch den Raum navigiert, ohne Hindernisse zu berühren. Er sammelt gezielt Objekte ein und meidet nicht definierte Gegenstände. Mit präziser Sensorik und intelligenter Software sorgt er für effiziente Navigation und Kategorisierung verschiedener Objekte.
 
-## 1 Allgemeine Informationen:
+## 1 Allgemeine Informationen
+Hinter Dusty steckt, wie der Name schon verrät, die Idee eines Saugroboters. Saugroboter absorbieren Schmutz und erkennen Nicht-Schmutzartige Teilchen während Sie sich unfallfrei durch einen Raum bewegen können. Erkennt ein Saugroboter ein Hinderniss wendet er dynamisch und fährt um Hindernisse herum ohne mit diesen zu kollidieren. Hierzu zählen auch Wände eines Raums.
+Zur Übertragung der grundsätzlichen Struktur, die hinter einem Saugroboter steckt, auf einen LEGO Spike Roboter haben wir uns folgende Grundstruktur überlegt: Dusty sollte ein fahrender Roboter mit einem guten Wendekreis sein. Anhand eines Distanzsensors sollte er große Hindernisse wie Wände erkennen und mit einer Richtungsänderung bzw. Drehung reagieren können. Die Kategorisierung von Objekten kann anhand eines Farbsensors realisiert werden. Dieser kann auf den Boden ausgerichtet sein und dort liegende Objekte anhand ihrer Farbe erkennen. Über spezifische Programmierung kann dann implementiert werden, welche Farbe als Schmutz und welche Farbe als Hindernis identifiziert wird. Wird eine Farbe als Hindernis identifiziert, soll Dusty wieder mit einer Richtungsänderung bzw. Drehung reagieren. "Schmutz" soll von Dusty eingesaugt werden. Hierfür muss eine Art Saugfunktion sowie ein Behälter, in welchem der Schmutz aufgefangen werden kann, integriert werden.
+Im Folgenden wird beschrieben, wie die grundsätzliche Idee des Dusty's realisiert wurde.
 
 ## 2 Gebrauchte LEGO Teile
 Nachfolgend finden Sie eine Liste der LEGO-Steine, die für den Bau des Roboters benötigt werden:
@@ -98,4 +101,38 @@ Als letzten Schritt haben wir auf der Unterseite noch eine Art Auffangkorb angeb
 
  
 ## 4 Programmierung
-Im Folgenden werden die einzelnen Programmierschritte, die zum erstellen eines "Dusty's" nötig sind, erläutert. Die Programmierung 
+Im Folgenden werden die einzelnen Programmierschritte, die zum Erstellen eines "Dusty's" nötig sind, erläutert. Die Programmierung erfolgte anhand des Tools LEGO SPIKE Prime (Scratch).
+Hier zu sehen ist der gesamte Code. Die einzelnen Abschnitte und deren Funktionen bzw. Bedeutung wird anschließend erklärt.
+
+![image](https://github.com/user-attachments/assets/5f75ee38-7643-4c19-a639-99a70de9e725)
+
+## 4.1 Basisfunktion
+Die Basisfunktion besteht zunächst aus dem Baustein „When program starts“ um einen Initiator zu schaffen. Anschließend wird die Information gegeben, dass die beiden großen Motoren, welche für die Bewegung der großen Räder zuständig sind, am Hub an Position A und B angeschlossen sind. Nachfolgend wird eine „forever“-Schleife initiiert, welche verschiedene Funktionen in sich integriert. Diese definieren gemeinsam das grundsätzliche Bewegungskonzept von Dusty. Demnach fährt Dusty immer vorwärts, solange nichts anderes befohlen wird, da die Funktion „Vorwärts fahren“ in der Schleife ohne weitere Bedingungen steht (nähere Beschreibung, siehe unten). Anschließend wird bereits der Distanzsensor anhand einer „if“-Funktion integriert. Der Distanzsensor wurde an Anschluss C des Hubs angeschlossen. Die weitere Formulierung bedeutet, dass sobald etwas näher am Distanzsensor als 20 cm ist, wird die Funktion „Return“ ausgeführt. Grundsätzlich bedeutet diese, dass der Roboter kurz rückwärts fährt, sich dreht und wieder vorwärts fährt(nähere Beschreibung, siehe unten). Auch der Farbsensor wird anhand einer „if-else“-Funktion integriert. Dieser wurde an Anschluss F des Hubs angeschlossen. Die „if“-Funktion sorgt dafür, dass die Funktion „Drehen“ ausgeführt wird, wenn der Farbsensor die Farbe blau erkennt. Andernfalls („else“) wird die Funktion „Kein Schmutz“ ausgeführt. Die bereits kurz beschriebenen Funktionen werden im Anschluss näher erläutert.
+
+![image](https://github.com/user-attachments/assets/273272c1-50b7-4a6a-98a9-c5afa60429a5)
+
+## 4.2 Vorwärts fahren
+Diese Funktion wurde von uns selbst definiert. Sie bezieht sich auf die beiden großen Motoren, welche am Hub an Position A und B angeschlossen sind. Die Schnelligkeit wird über den Motoren-Baustein „set movement speed to 25%“ festgelegt. Nach einigen Testläufen hielten wir die Geschwindigkeit von 25% für angemessen. Zusätzlich wurde mit dem folgenden Baustein noch die Richtung der Bewegung anhand des Pfeils festgelegt. Dieser zeigt für Dusty nach vorne.
+
+![image](https://github.com/user-attachments/assets/ca5cb064-a9a2-44ff-af3c-5099d5f57969)
+
+## 4.3 Return
+Auch die „Return“-Funktion wurde von uns definiert. Sie kommt zum Einsatz, wenn der Distanzsensor ein Hindernis bei 20cm Entfernung identifiziert. Den beiden großen Motoren (A + B) wird der Befehl erteilt, für 5cm rückwärts zu fahren (Pfeil in entgegengesetzte Richtung wie für den vorwärts-Befehl). Nachdem die kurze Rückwärtsfahrt beendet ist, soll sich der Roboter für 1 Rotation des Motors nach rechts bewegen. Durch die „Vorwärts“-Funktion in der forever-Schleife fährt Dusty anschließend direkt wieder vorwärts.
+
+![image](https://github.com/user-attachments/assets/ab347aa4-72b2-4fbc-8c47-3ecdad8c3659)
+
+## 4.4 Drehen
+Die „Drehen“-Funktion kommt zum Einsatz, wenn der Farbsensor die Farbe blau erkennt. Diese selbst definierte Funktion startet zwei kleine Motoren (E + D), an welchen die beiden großen Räder angeschlossen sind, die für die spätere Saugfunktion zuständig sind. Hierfür wurde festgelegt, dass sie sich in entgegengesetzte Richtungen drehen, und zwar für 2 Sekunden. In dieser Zeit sollte das blaue Hindernis durch die Räder in den Innenraum des Roboters eingesaugt worden sein. Anschließend werden die beiden Motoren (E + D) gestoppt, damit die Räder aufhören sich zu drehen. Das alles geschieht während der Roboter normal vorwärts fährt.
+
+![image](https://github.com/user-attachments/assets/e58b126b-af1a-4c37-aa30-7cf29b93cb2c)
+
+## 4.5 Kein Schmutz
+Die selbst definierte Funktion „kein Schmutz“ enthält 5 „if“-Funktionen mit ähnlichem Aufbau. Für jede if-Funktion wurde eine Farbe, die der Farbsensor (an F angeschlossen) erkennen kann, ausgenommen blau, definiert. Für jede erkannte Farbe, die nicht blau ist, wird anschließend die „Return“-Funktion ausgeführt, welche oben bereits erklärt wurde. Dadurch fährt Dusty nicht einfach über die Hindernisse, die nicht als Schmutz identifiziert wurden, sondern umfährt diese.
+
+![image](https://github.com/user-attachments/assets/df2d0631-09ca-4461-98dd-ea17780433c0)
+
+## 4.6 Mögliche Anpassungen
+Je nachdem auf welchem Boden Dusty fährt können einige Anpassungen getroffen werden. Aufgrund der Ausrichtung direkten des Farbsensors auf den Boden, kann es dazu kommen, dass dieser dauerhaft die Farbe Gelb bei hellen Böden oder die Farbe schwarz bei dunklen Böden erkennt. Daher könnten je nach Umgebung aus der if-Funktion, welche nicht-schmutzige Teile identifiziert, die Farben des Bodens ausgeschlossen werden, um die Funktionstüchtigkeit von Dusty zu gewährleisten.
+
+## 5 Fazit
+
